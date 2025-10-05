@@ -87,5 +87,3 @@ Este projeto é de **uso livre** para fins educacionais e pessoais.
 Sinta-se à vontade para explorar, adaptar e expandir a ideia.  
 
 ---
-
-**Desenvolvido com 💙 usando HTML, CSS, JavaScript e n8n.**
