@@ -10,6 +10,14 @@
 
 ---
 
+## Prévia do Projeto
+
+<p align="center">
+  <img src="./preview.png" alt="Prévia do Projeto Fundo Mágico" width="700">
+</p>
+
+---
+
 ## Descrição do Projeto
 
 O **Fundo Mágico** é uma aplicação desenvolvida para praticar **HTML**, **CSS** e **JavaScript**, integrando o **n8n** e recursos de **Inteligência Artificial** para gerar estilos de fundo automaticamente a partir de uma descrição fornecida pelo usuário.
