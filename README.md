@@ -10,7 +10,7 @@
 
 ---
 
-## Prévia do Projeto
+##   Visual do Projeto
 
 <p align="center">
   <img src="preview.png" alt="Prévia do Projeto Fundo Mágico" width="700">
