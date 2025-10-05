@@ -1,0 +1,155 @@
+body {
+    background-color: #0f131a;
+    color: #ffffff;
+    background: url(../images/futurista.jpg);
+
+    background-position: top center;
+    font-family: "Audiowide", cursive;
+    color: #fff;
+    line-height: 1.4;
+    padding: 32px 24px;
+}
+
+
+.header {
+    margin: 40px auto;
+    z-index: 99;
+    position: relative;
+    max-width: 700px;
+}
+
+.header h1 {
+    margin-bottom: 16px;
+    font-size: 48px;
+    text-align: center;
+}
+
+.header .subtitle {
+    color: rgba(255, 255, 255, 0.8);
+    font-size: 19px;
+}
+
+.container {
+    max-width: 1024px;
+    margin: 0 auto;
+    z-index: 99;
+    position: relative;
+}
+
+.card.main-card {
+    border: 1px solid rgba(255, 255, 255, 0.2); 
+    border-radius: 16px;
+    padding: 32px;
+    margin-bottom: 32px;
+    background-image: linear-gradient(
+        to right,
+        #121852,
+        #2a5298,
+        #4f80c6
+    );
+    
+    opacity: 0.95; 
+}
+
+.card-header {
+    margin-bottom: 32px;
+    font-size: 21px;
+    text-align: center;
+}
+
+.form-group textarea {
+    background-color: rgba(140, 60, 255, 0.08); 
+    color: #ffffff;
+    width: 100%;
+    min-height: 120px;
+    padding: 16px;
+    border: 1px solid #a655f7;
+    border-radius: 8px;
+    font-size: 16px;
+    margin-bottom: 20px;
+
+    box-shadow: 0 0 12px rgba(166, 85, 247, 0.3);
+    transition: all 0.3s ease;
+}
+
+.form-group textarea:focus {
+    outline: none;
+    border-color: #d47cff;
+    box-shadow: 0 0 18px rgba(212, 124, 255, 0.6);
+}
+
+.form-group textarea::placeholder {
+    color: #a19e9e;
+}
+
+.form-group .btn-magic {
+    width: 100%;
+    padding: 16px 32px;
+    background: linear-gradient(to right, #8a2be2, #00bfff);
+    color: #ffffff;
+    border: none;
+    border-radius: 8px;
+    font-size: 18px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.form-group .btn-magic:hover {
+    transform: translateY(-2px);
+}
+
+.preview-card {
+    display: none;
+}
+
+.code-grid {
+    display: flex;
+    gap: 24px;
+}
+
+.code-card {
+   background-color: rgba(10, 25, 60, 0.9);
+   border: 1px solid rgba(255, 255, 255, 0.2);
+   border-radius: 16px;
+   padding: 24px;
+   width: 50%;
+}
+
+.code-title {
+    font-size: 20px;
+    margin-bottom: 16px;
+}
+
+.code-block {
+    background-color: #0a0c10;
+    color: #5eead4;
+    border-radius: 8px;
+    padding: 16px;
+    font-size: 14px;
+    white-space: pre-wrap;
+    word-wrap: break-word;
+}
+
+#description {
+  background-color: rgba(10, 10, 25, 0.7);
+  border: 1px solid #00ffff;
+  box-shadow: 0 0 10px rgba(0, 255, 255, 0.5);
+  color: #00ffff;
+  transition: box-shadow .3s, border-color .3s;
+}
+
+#description:focus {
+  outline: none;
+  border-color: #ff00ff;
+  box-shadow: 0 0 15px rgba(255, 0, 255, 0.7);
+}
+
+form.form-group {
+  position: relative;
+  background: rgba(15, 15, 35, 0.9);
+  border-radius: 16px;
+  padding: 25px;
+  margin-bottom: 30px;
+  overflow: hidden;
+  z-index: 0;
+}
