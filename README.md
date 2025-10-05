@@ -22,7 +22,7 @@
 
 O **Fundo Mágico** é uma aplicação desenvolvida para praticar **HTML**, **CSS** e **JavaScript**, integrando o **n8n** e recursos de **Inteligência Artificial** para gerar estilos de fundo automaticamente a partir de uma descrição fornecida pelo usuário.
 
-A ideia central é permitir que o usuário digite um comando em linguagem natural (por exemplo, *"um gradiente azul com estrelas"*) e o sistema converta essa instrução em código **CSS** válido, aplicando o resultado em tempo real.
+A ideia central é permitir que o usuário digite um comando em linguagem natural (por exemplo, *"um gradiente azul com estrelas"*) e o sistema converte essa instrução em código **CSS** válido, aplicando o resultado em tempo real.
 
 ---
 
